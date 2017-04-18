@@ -1,0 +1,263 @@
+/****Main CSS File by The One and Only****/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+/***QUICK ASSETS***/
+
+.text-red {
+    color: #b30000;
+}
+
+.text-green {
+    color: #009933;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.m-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+    float: none
+}
+
+
+/***GENERAL CHANGES***/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #b30000;
+}
+
+ p {
+    font-size: 21px;
+}
+   
+
+#description > div > i {
+    font-size: 120px;
+}
+
+header>nav#nav {
+    width: auto;
+    float: none;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 0px;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+.btn-submit {
+    font-family: Arial;
+    color: #b30000;
+    font-size: 24px;
+    padding: 10px 80px 10px 80px;
+    border: solid #660000 3px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-submit:hover {
+    background: #800000;
+    text-decoration: none;
+    color: white;
+}
+
+.form-style{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style fieldset{
+    border: none;
+}
+.form-style legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style input[type="name"],
+.form-style textarea,
+.form-style select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+.form-style input[type="text"]:focus,
+.form-style textarea:focus,
+.form-style select:focus{
+    background: #d2d9dd;
+}
+.form-style select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form-style .number {
+    background: #3FA9F5;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+
+/***HEADER***/
+
+
+/***BODY***/
+
+.navbar-nav {
+    float: none;
+    margin: 0;
+    display: inline-block;
+}
+
+#nav > div > div {
+    text-align: center;
+}
+
+ul > li {
+    display: table-cell;
+    text-align: center;
+    float: none;
+}
+
+#nav > div > div > ul > li > a {
+    font-size: 21px;
+}
+
+.navbar-default {
+    background-color: #1a0000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ff4d4d;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e60000;
+}
+
+#intro-header > div > img {
+    width: 20%;
+}
+
+#intro-header {
+    margin-top: 30px;
+}
+
+#intro-header > p {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+}
+
+#intro-header, #faq, #description, #donation {
+    padding: 5% 15%;
+}
+
+#donation {
+    background-color: #990000;
+}
+
+#description > div > h1, #donation > div > h1, #faq > div > h1 {
+    margin-bottom: 5%;
+}
+
+/***RESPONSIVE***/
+
+@media (max-width: 576px) {
+    #intro-header > div > img {
+        width: 50%;
+        }
+    #intro-header {
+        margin-top: 45%;
+        }
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        }
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        }
+    p {
+        font-size: 18px;
+        }
+    #intro-header > p {
+        width: 100%;
+        }
+
+    #description > div:after {
+        content:"";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 0.5em;
+        border-top: 1px solid white;
+        z-index: 2;
+        }
+    #faq > div:after {
+        content:"";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 0.5em;
+        border-top: 1px solid black;
+        z-index: -1;
+        }
+}
