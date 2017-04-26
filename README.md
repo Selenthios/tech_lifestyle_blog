@@ -2,4 +2,4 @@
 Creating a custom tech/lifestyle blog for future use.
 
 
-The blog will deal with a plethora of subjects. Tech, hobbies, nature.
+The blog will deal with a plethora of subjects. Tech, hobbies, nature. Basically anything and everything that comes to mind!
